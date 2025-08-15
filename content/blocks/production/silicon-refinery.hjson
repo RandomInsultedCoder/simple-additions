@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Silicon Refinery",
+  "description": "Highly efficent refinery of silicon. Requires tons of sand and coal to operate, along with power.",
+  "health": 720,
+  "size": 4,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/150
+  titanium/50
+  silicon/30
+  copper/250
+  ]
+  "category": "crafting",
+  "craftTime": 120,
+  "itemCapacity": 60
+  "outputItem": { "item": "silicon", "amount": 15 },
+  "consumes": {
+    power: 10,
+    items: [
+    sand/20
+    coal/10
+  ]
+  }
+  "research": silicon-smelter
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawFlame"}
+        ]
+    }
+}
