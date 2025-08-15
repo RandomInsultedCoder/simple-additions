@@ -1,0 +1,21 @@
+{
+  "type": "Drill",
+  "name": "Titanium Drill",
+  "description": "Basic drill. Mines faster than pneumatic, however it cannot mine thorium. Additionally, it cannot be boosted by water.",
+  "health": 720,
+  "size": 2,
+  "updateEffect": pulverizeSmall
+  "requirements": [
+  graphite/25
+  titanium/15
+  copper/30
+  ]
+  "category": "production",
+  "itemCapacity": 15
+  "tier": 2
+  "drilltime": 82
+  "liquidBoostIntensity": 1
+  "warmupSpeed": 0.01
+  "idlesound": drill
+  hasItems: true
+}
