@@ -18,4 +18,5 @@
   "warmupSpeed": 0.01
   "idlesound": drill
   hasItems: true
+  research : pneumatic-drill
 }
