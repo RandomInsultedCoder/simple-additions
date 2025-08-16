@@ -1,0 +1,12 @@
+name: Steam
+description: Water that has been heated to its boiling point. Gaseous. Mainly used for power generation.
+heatCapacity: 0.5
+explosiveness: 0
+temperature: 0.9
+viscocity: 0
+gas: true
+color: E8E8E8
+gasColor: EBEBEB
+flammability: 0
+research: water
+coolant: false

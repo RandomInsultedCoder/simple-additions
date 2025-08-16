@@ -1,0 +1,30 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Basic turbine",
+  "description": "Basic turbine. Generates power by spinning turbine blades inside, with steam.",
+  "health": 720,
+  "size": 2,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  copper/75
+  ]
+  "category": "crafting",
+  "craftTime": 120,
+  "itemCapacity": 60
+  "outputLiquids": ["steam/0.4"]
+"consumes": {
+  "liquids": ["steam/0.1"],
+}
+  
+  "research": steam-generator
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawRegion", "suffix": "-spinner", "spinSprite": true, "rotateSpeed": -1}
+        ]
+    }
+powerProduction: 3
+
+}

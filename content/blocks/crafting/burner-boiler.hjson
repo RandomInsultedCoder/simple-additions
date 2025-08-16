@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Burner Boiler",
+  "description": "Boils water using coal. First step into modular power generation.",
+  "health": 720,
+  "size": 2,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  silicon/25
+  copper/100
+  ]
+  "category": "crafting",
+  "craftTime": 60,
+  "itemCapacity": 10
+  "outputLiquids": ["steam/0.4"]
+"consumes": {
+  "liquids": ["water/0.2"],
+  "itemFlammable": {},
+  "itemExplode": {}
+}
+  "research": steam-generator
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawFlame"}
+        ]
+    }
+}

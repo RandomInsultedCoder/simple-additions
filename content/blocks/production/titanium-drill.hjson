@@ -12,7 +12,7 @@
   ]
   "category": "production",
   "itemCapacity": 15
-  "tier": 2
+  "tier": 3
   "drilltime": 82
   "liquidBoostIntensity": 1
   "warmupSpeed": 0.01
