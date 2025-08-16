@@ -16,7 +16,7 @@
   "itemCapacity": 60
   "outputItem": { "item": "silicon", "amount": 15 },
   "consumes": {
-    power: 10,
+    power: 25,
     items: [
     sand/20
     coal/10
